@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Book Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/Test.css" />
+    <script src="../JS/Test.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class=" col-10 offset-1 main">
+                <div id="header">
+                    <h3 class="h3 headerText">Bookorama</h3>
+                    <p class="headerText">Books for Ninjas</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Search books..." id="searchBooks" class="form-control input">
+                        </div>
+                    </form>
+                </div>
+                <div id="main">
+                    <h4 class="h4">Books to Read</h4>
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <span>Name of the wind</span>
+                                <button class="btn btn-danger deleteBtn">Delete</button>
+                            </li>
+                            <li>
+                                <span>The Alchemist</span>
+                                <button class="btn btn-danger deleteBtn">Delete</button>
+                            </li>
+                            <li>
+                                <span>Old man and the sea</span>
+                                <button class="btn btn-danger deleteBtn">Delete</button>
+                            </li>
+                            <li>
+                                <span>The monk Who sold his ferrari</span>
+                                <button class="btn btn-danger deleteBtn">Delete</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="check">
+                        <label for="check" class="form-check-label">Hide All Books</label>
+                    </div>
+                    <div class="form-group row">
+                        <input type="text" placeholder="Add book..." id="addBooks" class="form-control input col-auto">
+                        <button class="btn btn-primary col-auto " id="AddBtn">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

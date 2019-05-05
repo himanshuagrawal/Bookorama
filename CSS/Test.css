@@ -1,0 +1,50 @@
+
+.main{
+    border-radius: 5px;
+    margin-top: 20px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px;
+}
+
+#header{
+    background-color: #EEEDEF;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.headerText{
+    text-align: center;
+}
+
+.input{
+    width: 50%;
+    margin: auto;
+}
+
+#main{
+    padding: 15px 20px 15px 20px;
+}
+
+.h4{
+    color: #868284;
+}
+
+li{
+    margin-top:15px;
+    margin-bottom: 15px; 
+}
+
+span{
+    line-height: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.deleteBtn{
+    float: right;
+}
+
+
+
+
+
